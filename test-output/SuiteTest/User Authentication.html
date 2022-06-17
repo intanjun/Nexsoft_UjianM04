@@ -1,0 +1,260 @@
+<html>
+<head>
+<title>TestNG:  User Authentication</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>User Authentication</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jun 17 16:09:40 WIB 2022</td>
+</tr>
+<tr><td>Total time:</td><td>39 seconds (39191 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nexsoft.phptravels_ujian04.TestRegisterFunctionality.testRegister_Pass_and_repeatPassword_notSame_with_SameAccInformationSame()'><b>testRegister_Pass_and_repeatPassword_notSame_with_SameAccInformationSame</b><br>Test class: com.nexsoft.phptravels_ujian04.TestRegisterFunctionality<br/>
+<a href="#Output-976042249" onClick='toggleBox("Output-976042249", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-976042249" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-976042249">
+<img src='file://D:\EclipseWorkSpace\Day20_PHPTravels_UjianM04\screenshot\20220617_160951.png'height="500" width="1200"/><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.nexsoft.phptravels_ujian04.TestRegisterFunctionality@506ae4d4</td></tr>
+<tr>
+<td title='com.nexsoft.phptravels_ujian04.TestRegisterFunctionality.testRegister_firstName_and_lastName_notString()'><b>testRegister_firstName_and_lastName_notString</b><br>Test class: com.nexsoft.phptravels_ujian04.TestRegisterFunctionality<br/>
+<a href="#Output-1928254791" onClick='toggleBox("Output-1928254791", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1928254791" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1928254791">
+<img src='file://D:\EclipseWorkSpace\Day20_PHPTravels_UjianM04\screenshot\20220617_161004.png'height="500" width="1200"/><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.nexsoft.phptravels_ujian04.TestRegisterFunctionality@506ae4d4</td></tr>
+<tr>
+<td title='com.nexsoft.phptravels_ujian04.TestLoginFunctionality.testLogout_after_Login()'><b>testLogout_after_Login</b><br>Test class: com.nexsoft.phptravels_ujian04.TestLoginFunctionality<br/>
+<a href="#Output-1124055734" onClick='toggleBox("Output-1124055734", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1124055734" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1124055734">
+<img src='file://D:\EclipseWorkSpace\Day20_PHPTravels_UjianM04\screenshot\20220617_161014.png'height="500" width="1200"/><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.nexsoft.phptravels_ujian04.TestLoginFunctionality@771a660</td></tr>
+<tr>
+<td title='com.nexsoft.phptravels_ujian04.TestRegisterFunctionality.testRegister_Pass_and_repeatPassword_notSame()'><b>testRegister_Pass_and_repeatPassword_notSame</b><br>Test class: com.nexsoft.phptravels_ujian04.TestRegisterFunctionality<br/>
+<a href="#Output-1894861020" onClick='toggleBox("Output-1894861020", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1894861020" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1894861020">
+<img src='file://D:\EclipseWorkSpace\Day20_PHPTravels_UjianM04\screenshot\20220617_161001.png'height="500" width="1200"/><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.nexsoft.phptravels_ujian04.TestRegisterFunctionality@506ae4d4</td></tr>
+<tr>
+<td title='com.nexsoft.phptravels_ujian04.TestRegisterFunctionality.testRegister_city_and_state_notvalid_with_SameAccInformationSame()'><b>testRegister_city_and_state_notvalid_with_SameAccInformationSame</b><br>Test class: com.nexsoft.phptravels_ujian04.TestRegisterFunctionality<br/>
+<a href="#Output-1258539949" onClick='toggleBox("Output-1258539949", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1258539949" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1258539949">
+<img src='file://D:\EclipseWorkSpace\Day20_PHPTravels_UjianM04\screenshot\20220617_160959.png'height="500" width="1200"/><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.nexsoft.phptravels_ujian04.TestRegisterFunctionality@506ae4d4</td></tr>
+<tr>
+<td title='com.nexsoft.phptravels_ujian04.TestRegisterFunctionality.testRegister_city_and_state_notvalid()'><b>testRegister_city_and_state_notvalid</b><br>Test class: com.nexsoft.phptravels_ujian04.TestRegisterFunctionality<br/>
+<a href="#Output-1256914788" onClick='toggleBox("Output-1256914788", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1256914788" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1256914788">
+<img src='file://D:\EclipseWorkSpace\Day20_PHPTravels_UjianM04\screenshot\20220617_161009.png'height="500" width="1200"/><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.nexsoft.phptravels_ujian04.TestRegisterFunctionality@506ae4d4</td></tr>
+<tr>
+<td title='com.nexsoft.phptravels_ujian04.TestLoginFunctionality.testLogin_With_Null_User_and_ValidPassword()'><b>testLogin_With_Null_User_and_ValidPassword</b><br>Test class: com.nexsoft.phptravels_ujian04.TestLoginFunctionality<br/>
+<a href="#Output-2103053076" onClick='toggleBox("Output-2103053076", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2103053076" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2103053076">
+<img src='file://D:\EclipseWorkSpace\Day20_PHPTravels_UjianM04\screenshot\20220617_161018.png'height="500" width="1200"/><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nexsoft.phptravels_ujian04.TestLoginFunctionality@771a660</td></tr>
+<tr>
+<td title='com.nexsoft.phptravels_ujian04.TestRegisterFunctionality.testRegister_Data_Null()'><b>testRegister_Data_Null</b><br>Test class: com.nexsoft.phptravels_ujian04.TestRegisterFunctionality<br/>
+<a href="#Output-354980344" onClick='toggleBox("Output-354980344", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-354980344" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-354980344">
+<img src='file://D:\EclipseWorkSpace\Day20_PHPTravels_UjianM04\screenshot\20220617_161012.png'height="500" width="1200"/><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.nexsoft.phptravels_ujian04.TestRegisterFunctionality@506ae4d4</td></tr>
+<tr>
+<td title='com.nexsoft.phptravels_ujian04.TestLoginFunctionality.testLogin_With_Valid_User_and_unValidPassword()'><b>testLogin_With_Valid_User_and_unValidPassword</b><br>Test class: com.nexsoft.phptravels_ujian04.TestLoginFunctionality<br/>
+<a href="#Output-1009638012" onClick='toggleBox("Output-1009638012", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1009638012" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1009638012">
+<img src='file://D:\EclipseWorkSpace\Day20_PHPTravels_UjianM04\screenshot\20220617_161016.png'height="500" width="1200"/><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nexsoft.phptravels_ujian04.TestLoginFunctionality@771a660</td></tr>
+<tr>
+<td title='com.nexsoft.phptravels_ujian04.TestRegisterFunctionality.testRegister_phone_and_zipCode_notNumber()'><b>testRegister_phone_and_zipCode_notNumber</b><br>Test class: com.nexsoft.phptravels_ujian04.TestRegisterFunctionality<br/>
+<a href="#Output-444901554" onClick='toggleBox("Output-444901554", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-444901554" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-444901554">
+<img src='file://D:\EclipseWorkSpace\Day20_PHPTravels_UjianM04\screenshot\20220617_161007.png'height="500" width="1200"/><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.nexsoft.phptravels_ujian04.TestRegisterFunctionality@506ae4d4</td></tr>
+<tr>
+<td title='com.nexsoft.phptravels_ujian04.TestRegisterFunctionality.testRegister_firstName_and_lastName_notStringh_with_SameAccInformationSame()'><b>testRegister_firstName_and_lastName_notStringh_with_SameAccInformationSame</b><br>Test class: com.nexsoft.phptravels_ujian04.TestRegisterFunctionality<br/>
+<a href="#Output-962969081" onClick='toggleBox("Output-962969081", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-962969081" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-962969081">
+<img src='file://D:\EclipseWorkSpace\Day20_PHPTravels_UjianM04\screenshot\20220617_160954.png'height="500" width="1200"/><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.nexsoft.phptravels_ujian04.TestRegisterFunctionality@506ae4d4</td></tr>
+<tr>
+<td title='com.nexsoft.phptravels_ujian04.TestRegisterFunctionality.testRegister_tipedata_Sesuai()'><b>testRegister_tipedata_Sesuai</b><br>Test class: com.nexsoft.phptravels_ujian04.TestRegisterFunctionality<br/>
+<a href="#Output-1618489605" onClick='toggleBox("Output-1618489605", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1618489605" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1618489605">
+<img src='file://D:\EclipseWorkSpace\Day20_PHPTravels_UjianM04\screenshot\20220617_160948.png'height="500" width="1200"/><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.nexsoft.phptravels_ujian04.TestRegisterFunctionality@506ae4d4</td></tr>
+<tr>
+<td title='com.nexsoft.phptravels_ujian04.TestLoginFunctionality.testLogin_With_unValid_User_and_ValidPassword()'><b>testLogin_With_unValid_User_and_ValidPassword</b><br>Test class: com.nexsoft.phptravels_ujian04.TestLoginFunctionality<br/>
+<a href="#Output-1081819622" onClick='toggleBox("Output-1081819622", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1081819622" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1081819622">
+<img src='file://D:\EclipseWorkSpace\Day20_PHPTravels_UjianM04\screenshot\20220617_161017.png'height="500" width="1200"/><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nexsoft.phptravels_ujian04.TestLoginFunctionality@771a660</td></tr>
+<tr>
+<td title='com.nexsoft.phptravels_ujian04.TestRegisterFunctionality.testRegister_phone_and_zipCode_notNumber_with_SameAccInformationSame()'><b>testRegister_phone_and_zipCode_notNumber_with_SameAccInformationSame</b><br>Test class: com.nexsoft.phptravels_ujian04.TestRegisterFunctionality<br/>
+<a href="#Output-1686921139" onClick='toggleBox("Output-1686921139", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1686921139" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1686921139">
+<img src='file://D:\EclipseWorkSpace\Day20_PHPTravels_UjianM04\screenshot\20220617_160956.png'height="500" width="1200"/><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.nexsoft.phptravels_ujian04.TestRegisterFunctionality@506ae4d4</td></tr>
+<tr>
+<td title='com.nexsoft.phptravels_ujian04.TestLoginFunctionality.testLogin_with_Valid_User_and_Password()'><b>testLogin_with_Valid_User_and_Password</b><br>Test class: com.nexsoft.phptravels_ujian04.TestLoginFunctionality<br/>
+<a href="#Output-78580816" onClick='toggleBox("Output-78580816", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-78580816" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-78580816">
+<img src='file://D:\EclipseWorkSpace\Day20_PHPTravels_UjianM04\screenshot\20220617_161020.png'height="500" width="1200"/><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nexsoft.phptravels_ujian04.TestLoginFunctionality@771a660</td></tr>
+</table><p>
+</body>
+</html>
